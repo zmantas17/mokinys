@@ -36,14 +36,3 @@
     grid-area: footer;
     background-color: darkviolet;
 }
-
-@media screen and (max-width: 460px) { 
-    body{
-        grid-template-areas: 
-        "header header header header"
-        "nav nav nav nav"
-        "main main main main"
-        "aside aside aside aside"
-        "footer footer footer footer";
-    }
-  }
